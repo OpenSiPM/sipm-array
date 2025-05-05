@@ -12,6 +12,9 @@ This contains schematics and PCB layouts for a 4 channel SiPM detection board us
 # power supply
 The X4 design uses the standard OpenSiPM power supply and bias generator boards.  Due to the higher current from running 4 SiPMs in parallel, the LT8362 bias generator is recommended for maximum dynamic range, although both designs will work.  Additionally the board can be configured to use two separate power supplies by ommitting resistors and plugging in two supply boards to both sockets.  However, in normal useage this is not required and is probably not useful as the current demand is low enough that a single supply is adquate.
 
+# Non-descanned detection arm
+Zemax simulation for non-descanned detection using the 4 channel SiPM board and the prescription for the lens array used can be found [here](https://github.com/OpenSiPM/sipm-array/tree/main/Zemax). 
+
 # publication
 A manuscript is forthcoming.  
 
